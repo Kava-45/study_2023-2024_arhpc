@@ -78,11 +78,11 @@ header-includes:
 
 1 Создал каталог lab04,перешел в него и создал файл hello.asm
 
-![scr1](image/01.jpg){#fig:001 width=70%}
+![scr1](image/01.png){#fig:001 width=70%}
 
 2  Открыл файл с помошью gedit и заполнил его
  
-![scr1](image/02.jpg){#fig:002 width=70%}
+![scr1](image/02.png){#fig:002 width=70%}
 
 3 Команда nasm -f elf hello.asm изпользуется для компиляции ассемблерского ,кода написанног на языке  ассемблера  NASM
 4 Команда nasm -o obj.o -f elf -g -l list.lst hello.asm компилирует ассемблерский код из файла hello.asm в объект-файл obj.o в формате ELF
@@ -90,18 +90,16 @@ header-includes:
 6 Еще раз выполняю команду ld -m elf_i386 obj.o -o main для того чтобы получить исполняемый файл main
 7 И с помощью команды ./hello вывожу Hello world
 
-![scr1](image/03.jpg){#fig:003 width=70%}
+![scr1](image/03.png){#fig:004 width=70%}
 
 Задание для самостоятельной работы
 
 1 Я создал копию файла hello.asm  с именем lab04.asm с помощью команды cp
 
-![scr1](image/04.jpg){#fig:004 width=70%}
+![scr1](image/05.png){#fig:005 width=70%}
 2 Я внес изменения в файл с помощью текстого редактора, так чтобы вместо Hello world выводилась моя фамилия с именем
  
-![scr1](image/05.jpg){#fig:005 width=70%}
-
-![scr1](image/06.jpg){#fig:006 width=70%}
+![scr1](image/06.png){#fig:006 width=70%}
 
 3 Я Оттранслировал полученный текст программы lab4.asm в объектный файл и выполнил
 компоновку объектного файла и запустил получившийся исполняемый файл
