@@ -79,7 +79,7 @@ header-includes:
 
 1 Команда git config --global user.name дает возможность установить имя репозитория для всех моих репозиториев и команда git config --global user.email указываешь электронную почту для всех репозиториев для этого пользователя
 
-![scr 1](image/01.jpg){#fig:001 width=70%}
+![scr1](image/01.png){#fig:001 width=70%}
 
 2 Команда git config --global core.quotepath настраивает utf-8  в выводе сообщений git
 3 Команда git config --global init.defaultBranch дает возможность создать новую ветку репозитория
@@ -87,31 +87,31 @@ header-includes:
 5 Комана git config --global core.safecrlf дает возожность настраивать символы в окончании строки
 
 
-![scr 2](image/02.jpg){#fig:001 width=70%}
+![scr1](image/02.png){#fig:002 width=70%}
 
 6 Команда ssh-keygen -C "Имя Фамилия " позволяет генерировать ключи приватные и открытые
 
-![scr 3](image/03.jpg){#fig:001 width=70%}
+![scr1](image/03.png){#fig:003 width=70%}
 
 7 Я добавил ключ на github
 
-![scr 4](image/04.jpg){#fig:001 width=70%}
+![scr1](image/04.png){#fig:004 width=70%}
 
 8 Я создал каталог Архитектура компьютера
 
-![scr 5](image/05.jpg){#fig:001 width=70%}
+![scr1](image/05.png){#fig:005 width=70%}
 
 9 Я создал репозиторий курса
 
-![scr 6](image/06.jpg){#fig:001 width=70%}
+![scr1](image/06.png){#fig:006 width=70%}
 
 10 Скопировал созданный репозиторий
 
-![scr 7](image/07.jpg){#fig:001 width=70%}
+![scr1](image/07.png){#fig:008 width=70%}
 
 
 11 Я удалил файл package.json , создал каталог echo arh-pc >COURSE
-![scr 8](image/08.jpg){#fig:001 width=70%}
+![scr1](image/08.png){#fig:009 width=70%}
 
 Задания для самостоятельной работы
 1) Я создал отчет по выполнению лабораторной работы в
