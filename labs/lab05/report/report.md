@@ -1,8 +1,8 @@
 ---
 ## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
+title: "Лабораторная работа №5"
+subtitle: "Основы работы с Midnight Commander (mc). Структура программы на языке ассемблера NASM. Системные вызовы в ОС GNU Linux"
+author: "Казначеев Сергей Ильич"
 
 ## Generic otions
 lang: ru-RU
@@ -75,77 +75,77 @@ header-includes:
 # Выполнение лабораторной работы
 1 Я открыл Midnight commander с помошью команды mc 
 
-![scr1](image/01.jpg){#fig:001 width=70%}
+![scr1](image/01.png){#fig:001 width=70%}
 
 С помощью стрелок и клавиши Enter я перехожу в каталог ~/work/arch-pc и создаю папку lab05
 
-![scr2](image/02.jpg){#fig:002 width=70%}
+![scr2](image/02.png){#fig:002 width=70%}
 
 Переходим в нее и созадем файл с помощью команды touch lab5-1.asm
 
-![scr3](image/03.jpg){#fig:003 width=70%}
+![scr3](image/03.png){#fig:003 width=70%}
 
 С помощью клавиши F4 откроем только что созданный файл
  
-![scr4](image/04.jpg){#fig:004 width=70%}
+![scr4](image/04.png){#fig:004 width=70%}
 
 Далее редактируем файл
 
-![scr5](image/05.jpg){#fig:005 width=70%}
+![scr5](image/05.png){#fig:005 width=70%}
 
 Теперь скомпилируем его 
 
-![scr6](image/06.jpg){#fig:006 width=70%}
+![scr6](image/06.png){#fig:006 width=70%}
 
 и соберем 
-![scr7](image/07.jpg){#fig:007 width=70%}
+![scr7](image/07.png){#fig:007 width=70%}
 
 проверяем что файлы создались и то что можно ввести ФИО
 
-![scr7](image/08.jpg){#fig:008 width=70%}
+![scr7](image/08.png){#fig:008 width=70%}
 
-![scr8](image/13.jpg){#fig:013 width=70%}
+![scr8](image/13.png){#fig:013 width=70%}
 
 После скачиваем файл и копируем в рабочую папку 
 
-![scr9](image/14.jpg){#fig:014 width=70%}
+![scr9](image/14.png){#fig:014 width=70%}
 
 После я скопировал файлы и написал следующий код 
 
-![scr10](image/15.jpg){#fig:015 width=70%}
+![scr10](image/15.png){#fig:015 width=70%}
 
 Затем я создал исполняемый файл с помощью  nasm и id
  
-![scr11](image/16.jpg){#fig:016 width=70%}
+![scr11](image/16.png){#fig:016 width=70%}
 
 Далее поменяем команду sprintLF использовать просто команду sprint
 
-![scr12](image/17.jpg){#fig:017 width=70%}
+![scr12](image/17.png){#fig:017 width=70%}
 
 Точно также соберем файл и запустим его
 
-![scr13](image/18.jpg){#fig:018 width=70%}
+![scr13](image/18.png){#fig:018 width=70%}
 
 Задания для самостоятельной работы 
 
 Создадим с помощью F6 копию файла lab5-1.asm
 
-![scr13](image/19.jpg){#fig:019 width=70%}
+![scr13](image/19.png){#fig:019 width=70%}
 
 Меняем файл так чтобы он выводил тот текст который получил на ввод 
 
-![scr14](image/20.jpg){#fig:020 width=70%}
+![scr14](image/20.png){#fig:020 width=70%}
 
 Сохраняем изменения и запускаем 
 
-![scr15](image/21.jpg){#fig:021 width=70%}
+![scr15](image/21.png){#fig:021 width=70%}
 
 Создаем файл с помощью F5 копию файла
 
-![scr16](image/22.jpg){#fig:022 width=70%}
+![scr16](image/22.png){#fig:022 width=70%}
 
 Опять создадим файл и проверим его на корректность работы 
-![scr17](image/23.jpg){#fig:023 width=70%}
+![scr17](image/23.png){#fig:023 width=70%}
 
 
 # Выводы

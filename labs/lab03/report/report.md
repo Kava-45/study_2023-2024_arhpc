@@ -1,8 +1,8 @@
 ---
 ## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
+title: "Лабораторная работа №3"
+subtitle: "Язык разметки Markdown"
+author: "Казначеев Сергей Ильич "
 
 ## Generic otions
 lang: ru-RU
