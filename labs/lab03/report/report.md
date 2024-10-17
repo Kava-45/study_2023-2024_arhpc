@@ -103,7 +103,7 @@ header-includes:
 
 1 Я использовал команду make и получил файлы report.pdf и report.docx
 
-![Название рисунка](scr1.png){#fig:001 width=70%}
+![scr1](scr 1.png){#fig:001 width=70%}
 
 # Выводы
 Я приобрел навыки процедуры оформления отчетов с
