@@ -103,7 +103,7 @@ header-includes:
 
 1 Я использовал команду make и получил файлы report.pdf и report.docx
 
-![scr1](scr 1.png){#fig:001 width=70%}
+![scr1](/home/kava/work/study/2023-2024/Архитектура компьютера/study_2023-2024_arhpc/labs/lab03/report/image/scr 1.png){#fig:001 width=70%}
 
 # Выводы
 Я приобрел навыки процедуры оформления отчетов с
